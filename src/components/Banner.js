@@ -8,7 +8,7 @@ const Banner = () => {
   };
 
   return (
-    <Carousel activeIndex={index} id="carousel" onSelect={handleSelect} className={"w-100 p-1"}>
+    <Carousel activeIndex={index} id="carousel" onSelect={handleSelect} className={"w-100 h-50 p-1"}>
       <Carousel.Item>
         <img
           className="d-flex w-100"
