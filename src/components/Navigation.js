@@ -1,11 +1,12 @@
-import React from 'react';
-import { Route } from 'react-router-dom'
+import React from "react";
+import { Route } from "react-router-dom";
 
-import { Navbar, Nav } from "react-bootstrap"
-import  Home  from "../views/Home.js"
+import { Navbar, Nav } from "react-bootstrap";
+import Home from "../views/Home.js";
+import Movies from "../views/Booking";
 
-const Movies = () => <h1>Movies</h1>
-const Login = () => <h1>Login</h1>
+// const Movies = () => <h1>Movies</h1>
+const Login = () => <h1>Login</h1>;
 
 const Navigation = () => {
   return (
@@ -14,11 +15,11 @@ const Navigation = () => {
         <Navbar.Brand href="/">Theater</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/movies">Movies</Nav.Link>
-                <Nav.Link href="/login">Login</Nav.Link>
-            </Nav>
+          <Nav className="ml-auto">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/movies">Movies</Nav.Link>
+            <Nav.Link href="/login">Login</Nav.Link>
+          </Nav>
         </Navbar.Collapse>
       </Navbar>
       <div className="App">
@@ -28,6 +29,6 @@ const Navigation = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Navigation;
