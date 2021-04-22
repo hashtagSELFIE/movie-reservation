@@ -12,13 +12,13 @@ const Payment = (props) => {
       <Card border="primary" style={{width: '18rem'}}>
         <Card.Body>
           <Card.Title>Credit Cards</Card.Title>
-          <Card.Text>💳</Card.Text>
+          <Card.Text style={{fontSize: '10em'}}>💳</Card.Text>
         </Card.Body>
       </Card>
       <Card border="primary" style={{width: '18rem'}}>
         <Card.Body>
           <Card.Title>QR Code</Card.Title>
-          <Card.Text>🤳</Card.Text>
+          <Card.Text style={{fontSize: '10em'}}>🤳</Card.Text>
         </Card.Body>
       </Card>
       <br/>
