@@ -71,7 +71,7 @@ const Booking = () => {
 
             <Button
               variant="warning"
-              href="https://www.youtube.com/watch?v=1VIZ89FEjYI"
+              href="/payment"
             >
               ชำระเงิน
             </Button>

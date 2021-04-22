@@ -4,6 +4,7 @@ import { Route } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 import Home from "../views/Home.js";
 import Movies from "../views/Booking";
+import Payment from "../views/Payment";
 
 // const Movies = () => <h1>Movies</h1>
 const Login = () => <h1>Login</h1>;
@@ -26,6 +27,7 @@ const Navigation = () => {
         <Route exact path="/" component={Home} />
         <Route path="/movies" component={Movies} />
         <Route path="/login" component={Login} />
+        <Route path="/payment" component={Payment} />
       </div>
     </div>
   );
