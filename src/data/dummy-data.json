@@ -1,0 +1,820 @@
+[
+  [
+    {
+      "user_id": 1,
+      "email": "eskrine0@hud.gov",
+      "phonenumber": "580-348-2834",
+      "username": "tdelisle0",
+      "password": "94F4m8"
+    },
+    {
+      "user_id": 2,
+      "email": "asola1@ebay.co.uk",
+      "phonenumber": "183-587-6958",
+      "username": "cconnor1",
+      "password": "JAsh37bGxQm"
+    },
+    {
+      "user_id": 3,
+      "email": "jpalley2@cnet.com",
+      "phonenumber": "350-524-7899",
+      "username": "pgerholz2",
+      "password": "y0aHqTmT"
+    },
+    {
+      "user_id": 4,
+      "email": "obenoix3@mac.com",
+      "phonenumber": "566-762-2621",
+      "username": "targue3",
+      "password": "9gfaXtD"
+    },
+    {
+      "user_id": 5,
+      "email": "jeskrigg4@mozilla.org",
+      "phonenumber": "312-671-8018",
+      "username": "bmitchell4",
+      "password": "Qre2xDH"
+    }
+  ],
+  [
+    {
+      "cinema_id": 1,
+      "branch": "Dottie",
+      "theatre_no": 1,
+      "location": "Moncton",
+      "capacity": 50
+    },
+    {
+      "cinema_id": 2,
+      "branch": "Rusk",
+      "theatre_no": 2,
+      "location": "Kanáli",
+      "capacity": 50
+    },
+    {
+      "cinema_id": 3,
+      "branch": "School",
+      "theatre_no": 3,
+      "location": "Otacílio Costa",
+      "capacity": 50
+    },
+    {
+      "cinema_id": 4,
+      "branch": "Novick",
+      "theatre_no": 4,
+      "location": "Martingança-Gare",
+      "capacity": 50
+    },
+    {
+      "cinema_id": 5,
+      "branch": "Hauk",
+      "theatre_no": 5,
+      "location": "Bukonyo",
+      "capacity": 50
+    }
+  ],
+  [
+    {
+      "cinema_type_id": 1,
+      "title": "Rebekah",
+      "audio": "Dhivehi",
+      "subtitle": "Azeri"
+    },
+    {
+      "cinema_type_id": 1,
+      "title": "Lulita",
+      "audio": "Afrikaans",
+      "subtitle": "Bosnian"
+    },
+    {
+      "cinema_type_id": 1,
+      "title": "Grazia",
+      "audio": "Ndebele",
+      "subtitle": "Mongolian"
+    },
+    {
+      "cinema_type_id": 1,
+      "title": "Adelaide",
+      "audio": "Kyrgyz",
+      "subtitle": "German"
+    },
+    {
+      "cinema_type_id": 1,
+      "title": "Susanna",
+      "audio": "Tok Pisin",
+      "subtitle": "Bulgarian"
+    }
+  ],
+  [
+    {
+      "seat_id": 1,
+      "seat_number": "1A",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 2,
+      "seat_number": "2A",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 3,
+      "seat_number": "3A",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 4,
+      "seat_number": "4A",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 5,
+      "seat_number": "5A",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 6,
+      "seat_number": "6A",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 7,
+      "seat_number": "7A",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 8,
+      "seat_number": "8A",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 9,
+      "seat_number": "9A",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 10,
+      "seat_number": "10A",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 11,
+      "seat_number": "1B",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 12,
+      "seat_number": "2B",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 13,
+      "seat_number": "3B",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 14,
+      "seat_number": "4B",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 15,
+      "seat_number": "5B",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 16,
+      "seat_number": "6B",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 17,
+      "seat_number": "7B",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 18,
+      "seat_number": "8B",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 19,
+      "seat_number": "9B",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 20,
+      "seat_number": "10B",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 21,
+      "seat_number": "1C",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 22,
+      "seat_number": "2C",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 23,
+      "seat_number": "3C",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 24,
+      "seat_number": "4C",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 25,
+      "seat_number": "5C",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 26,
+      "seat_number": "6C",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 27,
+      "seat_number": "7C",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 28,
+      "seat_number": "8C",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 29,
+      "seat_number": "9C",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 30,
+      "seat_number": "10C",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 31,
+      "seat_number": "1D",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 32,
+      "seat_number": "2D",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 33,
+      "seat_number": "3D",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 34,
+      "seat_number": "4D",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 35,
+      "seat_number": "5D",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 36,
+      "seat_number": "6D",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 37,
+      "seat_number": "7D",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 38,
+      "seat_number": "8D",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 39,
+      "seat_number": "9D",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 40,
+      "seat_number": "10D",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 41,
+      "seat_number": "1E",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 42,
+      "seat_number": "2E",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 43,
+      "seat_number": "3E",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 44,
+      "seat_number": "4E",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 45,
+      "seat_number": "5E",
+      "status": "available",
+      "price": 160
+    },
+    {
+      "seat_id": 46,
+      "seat_number": "6E",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 47,
+      "seat_number": "7E",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 48,
+      "seat_number": "8E",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 49,
+      "seat_number": "9E",
+      "status": "unavailable",
+      "price": 160
+    },
+    {
+      "seat_id": 50,
+      "seat_number": "10E",
+      "status": "available",
+      "price": 160
+    }
+  ],
+  [
+    {
+      "movies_id": 1,
+      "title": "Toughjoyfax",
+      "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+      "categories": "Romance",
+      "length": 157,
+      "rating": "G",
+      "premiere_date": "4/13/2021",
+      "end_date": "8/12/2020",
+      "trailer": "http://chicagotribune.com/venenatis/non/sodales/sed/tincidunt.html?nisi=urna&eu=pretium&orci=nisl&mauris=ut&lacinia=volutpat&sapien=sapien&quis=arcu&libero=sed&nullam=augue&sit=aliquam&amet=erat&turpis=volutpat&elementum=in&ligula=congue&vehicula=etiam&consequat=justo&morbi=etiam&a=pretium&ipsum=iaculis&integer=justo&a=in&nibh=hac&in=habitasse&quis=platea&justo=dictumst&maecenas=etiam&rhoncus=faucibus&aliquam=cursus&lacus=urna&morbi=ut&quis=tellus&tortor=nulla&id=ut&nulla=erat&ultrices=id&aliquet=mauris&maecenas=vulputate&leo=elementum&odio=nullam&condimentum=varius&id=nulla&luctus=facilisi&nec=cras&molestie=non&sed=velit&justo=nec&pellentesque=nisi&viverra=vulputate&pede=nonummy&ac=maecenas&diam=tincidunt&cras=lacus&pellentesque=at&volutpat=velit&dui=vivamus&maecenas=vel&tristique=nulla&est=eget&et=eros&tempus=elementum&semper=pellentesque&est=quisque&quam=porta&pharetra=volutpat&magna=erat&ac=quisque&consequat=erat&metus=eros&sapien=viverra&ut=eget&nunc=congue&vestibulum=eget&ante=semper&ipsum=rutrum&primis=nulla&in=nunc&faucibus=purus",
+      "poster": "http://dummyimage.com/248x100.png/ff4444/ffffff"
+    },
+    {
+      "movies_id": 2,
+      "title": "Cardify",
+      "description": "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+      "categories": "Action",
+      "length": 139,
+      "rating": "PG-13",
+      "premiere_date": "12/30/2020",
+      "end_date": "5/28/2020",
+      "trailer": "http://sina.com.cn/ultrices/phasellus.xml?vel=suspendisse&augue=potenti&vestibulum=cras&rutrum=in&rutrum=purus&neque=eu&aenean=magna&auctor=vulputate&gravida=luctus&sem=cum&praesent=sociis&id=natoque&massa=penatibus&id=et&nisl=magnis&venenatis=dis&lacinia=parturient&aenean=montes&sit=nascetur&amet=ridiculus&justo=mus&morbi=vivamus&ut=vestibulum&odio=sagittis",
+      "poster": "http://dummyimage.com/131x100.png/ff4444/ffffff"
+    },
+    {
+      "movies_id": 3,
+      "title": "Temp",
+      "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+      "categories": "Sci-Fi",
+      "length": 129,
+      "rating": "PG-13",
+      "premiere_date": "8/4/2020",
+      "end_date": "5/2/2020",
+      "trailer": "http://mapy.cz/in/eleifend/quam/a/odio/in.html?id=nulla&pretium=ut&iaculis=erat&diam=id&erat=mauris&fermentum=vulputate&justo=elementum&nec=nullam&condimentum=varius&neque=nulla&sapien=facilisi&placerat=cras&ante=non&nulla=velit&justo=nec&aliquam=nisi&quis=vulputate&turpis=nonummy&eget=maecenas&elit=tincidunt&sodales=lacus&scelerisque=at&mauris=velit&sit=vivamus&amet=vel&eros=nulla&suspendisse=eget&accumsan=eros&tortor=elementum&quis=pellentesque&turpis=quisque&sed=porta&ante=volutpat&vivamus=erat&tortor=quisque&duis=erat&mattis=eros&egestas=viverra&metus=eget&aenean=congue&fermentum=eget&donec=semper&ut=rutrum&mauris=nulla&eget=nunc&massa=purus&tempor=phasellus&convallis=in&nulla=felis&neque=donec&libero=semper&convallis=sapien&eget=a&eleifend=libero&luctus=nam&ultricies=dui&eu=proin&nibh=leo&quisque=odio&id=porttitor&justo=id&sit=consequat&amet=in&sapien=consequat&dignissim=ut&vestibulum=nulla&vestibulum=sed&ante=accumsan&ipsum=felis&primis=ut&in=at&faucibus=dolor&orci=quis&luctus=odio&et=consequat&ultrices=varius&posuere=integer&cubilia=ac&curae=leo&nulla=pellentesque&dapibus=ultrices&dolor=mattis&vel=odio&est=donec&donec=vitae&odio=nisi&justo=nam&sollicitudin=ultrices&ut=libero&suscipit=non&a=mattis",
+      "poster": "http://dummyimage.com/193x100.png/dddddd/000000"
+    },
+    {
+      "movies_id": 4,
+      "title": "Holdlamis",
+      "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "categories": "Thriller",
+      "length": 92,
+      "rating": "PG-18",
+      "premiere_date": "6/7/2020",
+      "end_date": "5/23/2020",
+      "trailer": "https://hc360.com/consequat/lectus.js?in=in&porttitor=hac&pede=habitasse&justo=platea&eu=dictumst&massa=maecenas&donec=ut&dapibus=massa&duis=quis&at=augue&velit=luctus&eu=tincidunt&est=nulla&congue=mollis&elementum=molestie&in=lorem&hac=quisque&habitasse=ut&platea=erat&dictumst=curabitur&morbi=gravida&vestibulum=nisi&velit=at&id=nibh&pretium=in&iaculis=hac&diam=habitasse&erat=platea&fermentum=dictumst&justo=aliquam&nec=augue&condimentum=quam&neque=sollicitudin&sapien=vitae&placerat=consectetuer&ante=eget&nulla=rutrum&justo=at&aliquam=lorem&quis=integer&turpis=tincidunt&eget=ante&elit=vel&sodales=ipsum&scelerisque=praesent&mauris=blandit&sit=lacinia&amet=erat&eros=vestibulum&suspendisse=sed&accumsan=magna",
+      "poster": "http://dummyimage.com/216x100.png/cc0000/ffffff"
+    },
+    {
+      "movies_id": 5,
+      "title": "Zamit",
+      "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+      "categories": "Comedy",
+      "length": 105,
+      "rating": "G",
+      "premiere_date": "4/17/2021",
+      "end_date": "6/10/2020",
+      "trailer": "https://guardian.co.uk/ridiculus/mus.png?nulla=nibh&ac=fusce&enim=lacus&in=purus&tempor=aliquet&turpis=at&nec=feugiat&euismod=non&scelerisque=pretium&quam=quis&turpis=lectus&adipiscing=suspendisse&lorem=potenti&vitae=in&mattis=eleifend&nibh=quam&ligula=a&nec=odio&sem=in&duis=hac&aliquam=habitasse&convallis=platea&nunc=dictumst&proin=maecenas&at=ut&turpis=massa&a=quis&pede=augue&posuere=luctus&nonummy=tincidunt&integer=nulla&non=mollis&velit=molestie&donec=lorem&diam=quisque&neque=ut&vestibulum=erat&eget=curabitur&vulputate=gravida&ut=nisi&ultrices=at&vel=nibh&augue=in&vestibulum=hac&ante=habitasse&ipsum=platea&primis=dictumst&in=aliquam&faucibus=augue&orci=quam&luctus=sollicitudin&et=vitae&ultrices=consectetuer&posuere=eget&cubilia=rutrum&curae=at&donec=lorem&pharetra=integer&magna=tincidunt&vestibulum=ante&aliquet=vel&ultrices=ipsum&erat=praesent&tortor=blandit&sollicitudin=lacinia&mi=erat&sit=vestibulum&amet=sed&lobortis=magna&sapien=at&sapien=nunc&non=commodo&mi=placerat&integer=praesent&ac=blandit&neque=nam&duis=nulla&bibendum=integer&morbi=pede&non=justo&quam=lacinia&nec=eget&dui=tincidunt&luctus=eget&rutrum=tempus&nulla=vel&tellus=pede&in=morbi&sagittis=porttitor&dui=lorem&vel=id&nisl=ligula&duis=suspendisse&ac=ornare&nibh=consequat&fusce=lectus&lacus=in&purus=est",
+      "poster": "http://dummyimage.com/192x100.png/dddddd/000000"
+    },
+    {
+      "movies_id": 6,
+      "title": "Ronstring",
+      "description": "Cras mi pede, qrsuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+      "categories": "Horror",
+      "length": 165,
+      "rating": "PG18",
+      "premiere_date": "10/6/2020",
+      "end_date": "3/30/2021",
+      "trailer": "http://goo.gl/suspendisse/potenti/cras/in/purus.png?nisl=lectus&nunc=suspendisse&rhoncus=potenti&dui=in&vel=eleifend&sem=quam&sed=a&sagittis=odio&nam=in&congue=hac&risus=habitasse&semper=platea&porta=dictumst&volutpat=maecenas&quam=ut&pede=massa&lobortis=quis&ligula=augue&sit=luctus&amet=tincidunt&eleifend=nulla&pede=mollis&libero=molestie&quis=lorem&orci=quisque&nullam=ut&molestie=erat&nibh=curabitur&in=gravida&lectus=nisi&pellentesque=at&at=nibh&nulla=in&suspendisse=hac&potenti=habitasse&cras=platea&in=dictumst",
+      "poster": "http://dummyimage.com/139x100.png/cc0000/ffffff"
+    },
+    {
+      "movies_id": 7,
+      "title": "Domainer",
+      "description": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+      "categories": "Documentary",
+      "length": 124,
+      "rating": "PG13",
+      "premiere_date": "12/15/2020",
+      "end_date": "11/1/2020",
+      "trailer": "https://wordpress.com/curabitur/at/ipsum.json?nibh=consequat&ligula=in&nec=consequat&sem=ut&duis=nulla&aliquam=sed&convallis=accumsan&nunc=felis&proin=ut&at=at&turpis=dolor&a=quis&pede=odio&posuere=consequat&nonummy=varius&integer=integer&non=ac&velit=leo&donec=pellentesque&diam=ultrices&neque=mattis&vestibulum=odio&eget=donec&vulputate=vitae&ut=nisi&ultrices=nam&vel=ultrices&augue=libero&vestibulum=non&ante=mattis&ipsum=pulvinar",
+      "poster": "http://dummyimage.com/139x100.png/5fa2dd/ffffff"
+    },
+    {
+      "movies_id": 8,
+      "title": "Matsoft",
+      "description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+      "categories": "Romantic Comedy",
+      "length": 143,
+      "rating": "G",
+      "premiere_date": "2/20/2021",
+      "end_date": "2/24/2021",
+      "trailer": "http://psu.edu/pretium/quis/lectus/suspendisse/potenti/in/eleifend.jpg?massa=elit&id=proin&lobortis=risus&convallis=praesent&tortor=lectus&risus=vestibulum&dapibus=quam&augue=sapien&vel=varius&accumsan=ut&tellus=blandit&nisi=non&eu=interdum&orci=in&mauris=ante&lacinia=vestibulum&sapien=ante&quis=ipsum&libero=primis&nullam=in&sit=faucibus&amet=orci&turpis=luctus&elementum=et&ligula=ultrices&vehicula=posuere&consequat=cubilia&morbi=curae&a=duis&ipsum=faucibus&integer=accumsan&a=odio&nibh=curabitur&in=convallis&quis=duis&justo=consequat&maecenas=dui&rhoncus=nec&aliquam=nisi&lacus=volutpat&morbi=eleifend&quis=donec&tortor=ut",
+      "poster": "http://dummyimage.com/185x100.png/cc0000/ffffff"
+    },
+    {
+      "movies_id": 9,
+      "title": "Viva",
+      "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+      "categories": "Fantasy",
+      "length": 123,
+      "rating": "G",
+      "premiere_date": "9/18/2020",
+      "end_date": "5/18/2020",
+      "trailer": "http://booking.com/pede/posuere/nonummy/integer/non/velit.jpg?nec=quam&condimentum=nec&neque=dui&sapien=luctus&placerat=rutrum&ante=nulla&nulla=tellus&justo=in&aliquam=sagittis&quis=dui&turpis=vel&eget=nisl&elit=duis&sodales=ac&scelerisque=nibh&mauris=fusce&sit=lacus&amet=purus&eros=aliquet&suspendisse=at&accumsan=feugiat&tortor=non&quis=pretium&turpis=quis&sed=lectus&ante=suspendisse&vivamus=potenti&tortor=in&duis=eleifend&mattis=quam&egestas=a&metus=odio&aenean=in&fermentum=hac&donec=habitasse&ut=platea&mauris=dictumst&eget=maecenas&massa=ut&tempor=massa&convallis=quis&nulla=augue&neque=luctus&libero=tincidunt&convallis=nulla&eget=mollis&eleifend=molestie&luctus=lorem&ultricies=quisque&eu=ut&nibh=erat&quisque=curabitur&id=gravida&justo=nisi&sit=at&amet=nibh&sapien=in&dignissim=hac&vestibulum=habitasse&vestibulum=platea&ante=dictumst",
+      "poster": "http://dummyimage.com/130x100.png/ff4444/ffffff"
+    },
+    {
+      "movies_id": 10,
+      "title": "Biodex",
+      "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, Promotionssuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "categories": "Anime",
+      "length": 179,
+      "rating": "PG13",
+      "premiere_date": "7/4/2020",
+      "end_date": "9/22/2020",
+      "trailer": "http://umich.edu/felis/sed/interdum.json?volutpat=non&erat=pretium&quisque=quis&erat=lectus&eros=suspendisse&viverra=potenti&eget=in&congue=eleifend&eget=quam&semper=a&rutrum=odio&nulla=in&nunc=hac&purus=habitasse&phasellus=platea&in=dictumst&felis=maecenas&donec=ut&semper=massa&sapien=quis&a=augue&libero=luctus&nam=tincidunt&dui=nulla&proin=mollis&leo=molestie&odio=lorem&porttitor=quisque&id=ut&consequat=erat&in=curabitur&consequat=gravida&ut=nisi&nulla=at&sed=nibh&accumsan=in&felis=hac&ut=habitasse&at=platea&dolor=dictumst&quis=aliquam&odio=augue&consequat=quam&varius=sollicitudin&integer=vitae&ac=consectetuer&leo=eget&pellentesque=rutrum&ultrices=at&mattis=lorem&odio=integer&donec=tincidunt&vitae=ante&nisi=vel&nam=ipsum&ultrices=praesent&libero=blandit&non=lacinia&mattis=erat&pulvinar=vestibulum&nulla=sed&pede=magna&ullamcorper=at&augue=nunc&a=commodo&suscipit=placerat&nulla=praesent&elit=blandit&ac=nam&nulla=nulla&sed=integer&vel=pede&enim=justo&sit=lacinia&amet=eget&nunc=tincidunt&viverra=eget&dapibus=tempus&nulla=vel&suscipit=pede&ligula=morbi&in=porttitor&lacus=lorem&curabitur=id&at=ligula",
+      "poster": "http://dummyimage.com/240x100.png/cc0000/ffffff"
+    }
+  ],
+  [
+    {
+      "ticket_id": 1,
+      "status": "unpaid",
+      "genre": "Romance",
+      "length": 122
+    },
+    {
+      "ticket_id": 2,
+      "status": "paid",
+      "genre": "Comedy",
+      "length": 102
+    },
+    {
+      "ticket_id": 3,
+      "status": "paid",
+      "genre": "Anime",
+      "length": 117
+    },
+    {
+      "ticket_id": 4,
+      "status": "unpaid",
+      "genre": "Thriller",
+      "length": 128
+    },
+    {
+      "ticket_id": 5,
+      "status": "paid",
+      "genre": "Romantic Comedy",
+      "length": 133
+    },
+    {
+      "ticket_id": 6,
+      "status": "unpaid",
+      "genre": "Horror",
+      "length": 133
+    },
+    {
+      "ticket_id": 7,
+      "status": "paid",
+      "genre": "Action",
+      "length": 140
+    },
+    {
+      "ticket_id": 8,
+      "status": "paid",
+      "genre": "Sci-Fi",
+      "length": 99
+    },
+    {
+      "ticket_id": 9,
+      "status": "unpaid",
+      "genre": "Fantasy",
+      "length": 125
+    },
+    {
+      "ticket_id": 10,
+      "status": "paid",
+      "genre": "Documentary",
+      "length": 100
+    }
+  ],
+  [
+    {
+      "showtime_id": 1,
+      "length": 113,
+      "date": "4/9/2021",
+      "time": "11:34 PM"
+    },
+    {
+      "showtime_id": 2,
+      "length": 147,
+      "date": "1/15/2021",
+      "time": "7:45 PM"
+    },
+    {
+      "showtime_id": 3,
+      "length": 121,
+      "date": "5/12/2020",
+      "time": "8:10 PM"
+    },
+    {
+      "showtime_id": 4,
+      "length": 113,
+      "date": "3/14/2021",
+      "time": "6:24 PM"
+    },
+    {
+      "showtime_id": 5,
+      "length": 164,
+      "date": "3/3/2021",
+      "time": "9:46 PM"
+    },
+    {
+      "showtime_id": 6,
+      "length": 105,
+      "date": "2/18/2021",
+      "time": "6:38 PM"
+    },
+    {
+      "showtime_id": 7,
+      "length": 120,
+      "date": "6/28/2020",
+      "time": "1:40 PM"
+    },
+    {
+      "showtime_id": 8,
+      "length": 128,
+      "date": "8/24/2020",
+      "time": "10:14 AM"
+    },
+    {
+      "showtime_id": 9,
+      "length": 132,
+      "date": "11/16/2020",
+      "time": "9:08 PM"
+    },
+    {
+      "showtime_id": 10,
+      "length": 92,
+      "date": "5/18/2020",
+      "time": "11:07 AM"
+    }
+  ],
+  [
+    {
+      "payment_id": 1,
+      "type": "card",
+      "status": "unpaid",
+      "tax_id": 1,
+      "total_cost": 173,
+      "time": "9:04 AM"
+    },
+    {
+      "payment_id": 2,
+      "type": "card",
+      "status": "paid",
+      "tax_id": 2,
+      "total_cost": 180,
+      "time": "3:53 PM"
+    },
+    {
+      "payment_id": 3,
+      "type": "qr",
+      "status": "paid",
+      "tax_id": 3,
+      "total_cost": 173,
+      "time": "4:05 AM"
+    },
+    {
+      "payment_id": 4,
+      "type": "qr",
+      "status": "paid",
+      "tax_id": 4,
+      "total_cost": 177,
+      "time": "9:23 PM"
+    },
+    {
+      "payment_id": 5,
+      "type": "card",
+      "status": "paid",
+      "tax_id": 5,
+      "total_cost": 175,
+      "time": "4:15 AM"
+    },
+    {
+      "payment_id": 6,
+      "type": "card",
+      "status": true,
+      "tax_id": 6,
+      "total_cost": 165,
+      "time": "7:42 PM"
+    },
+    {
+      "payment_id": 7,
+      "type": "qr",
+      "status": true,
+      "tax_id": 7,
+      "total_cost": 177,
+      "time": "3:14 PM"
+    },
+    {
+      "payment_id": 8,
+      "type": "qr",
+      "status": "unpaid",
+      "tax_id": 8,
+      "total_cost": 167,
+      "time": "9:13 AM"
+    },
+    {
+      "payment_id": 9,
+      "type": "qr",
+      "status": "unpaid",
+      "tax_id": 9,
+      "total_cost": 166,
+      "time": "9:17 AM"
+    },
+    {
+      "payment_id": 10,
+      "type": "qr",
+      "status": "paid",
+      "tax_id": 10,
+      "total_cost": 178,
+      "time": "5:20 AM"
+    }
+  ],
+  [
+    {
+      "news_id": 1,
+      "type": "Promotions",
+      "title": "Western Water Hemp",
+      "thumbnail": "http://dummyimage.com/113x100.png/cc0000/ffffff",
+      "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+      "published_date": "10/6/2020"
+    },
+    {
+      "news_id": 2,
+      "type": "Promotions",
+      "title": "KALI BROMATUM, CINCHONA OFFICINALIS, SULPHUR, DULCAMARA, HYDRASTIS CANADENSIS, ARNICA MONTANA, BRYONIA CAUSTICUM",
+      "thumbnail": "http://dummyimage.com/175x100.png/dddddd/000000",
+      "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+      "published_date": "4/30/2020"
+    },
+    {
+      "news_id": 3,
+      "type": "Promotions",
+      "title": "acebutolol hydrochloride",
+      "thumbnail": "http://dummyimage.com/190x100.png/dddddd/000000",
+      "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+      "published_date": "1/6/2021"
+    },
+    {
+      "news_id": 4,
+      "type": "NEWS",
+      "title": "Fluconazole",
+      "thumbnail": "http://dummyimage.com/115x100.png/5fa2dd/ffffff",
+      "description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+      "published_date": "10/18/2020"
+    },
+    {
+      "news_id": 5,
+      "type": "Promotions",
+      "title": "Tetrahydrozoline Hydrochloride",
+      "thumbnail": "http://dummyimage.com/133x100.png/cc0000/ffffff",
+      "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+      "published_date": "10/29/2020"
+    },
+    {
+      "news_id": 6,
+      "type": "Promotions",
+      "title": "Doxycycline Hyclate",
+      "thumbnail": "http://dummyimage.com/135x100.png/dddddd/000000",
+      "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+      "published_date": "1/14/2021"
+    },
+    {
+      "news_id": 7,
+      "type": "NEWS",
+      "title": "LACHESIS MUTA VENOM and TIN and SANGUINARIA CANADENSIS ROOT and SIMABA CEDRON SEED and STRYCHNOS IGNATII SEED and SEPIA OFFICINALIS JUICE and SULFUR",
+      "thumbnail": "http://dummyimage.com/139x100.png/cc0000/ffffff",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+      "published_date": "5/9/2020"
+    },
+    {
+      "news_id": 8,
+      "type": "NEWS",
+      "title": "bicalutamide",
+      "thumbnail": "http://dummyimage.com/129x100.png/dddddd/000000",
+      "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
+      "published_date": "4/4/2021"
+    },
+    {
+      "news_id": 9,
+      "type": "Promotions",
+      "title": "Dextromethorphan HBr",
+      "thumbnail": "http://dummyimage.com/247x100.png/cc0000/ffffff",
+      "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+      "published_date": "6/12/2020"
+    },
+    {
+      "news_id": 10,
+      "type": "NEWS",
+      "title": "HYPERICUM PERFORATUM",
+      "thumbnail": "http://dummyimage.com/157x100.png/dddddd/000000",
+      "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "published_date": "4/10/2021"
+    }
+  ]
+]

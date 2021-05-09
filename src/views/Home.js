@@ -1,6 +1,8 @@
 import React from "react";
 import Banner from "../components/Banner";
 import MovieCard from "../components/MovieCard";
+import PromotionCard from "../components/PromotionCard.js";
+import { MOVIES, NEWS } from "../data/dummy-data.js";
 
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
@@ -24,6 +26,7 @@ const Home = () => {
   return (
     <div>
       <Banner />
+      {/* Display Promotions */}
       <Carousel
         responsive={responsive}
         autoPlay
@@ -31,33 +34,44 @@ const Home = () => {
         focusOnSelect
         itemClass="mx-3"
       >
-        <MovieCard date="Date" />
-        <MovieCard date="Date" />
-        <MovieCard date="Date" />
-        <MovieCard date="Date" />
+        {NEWS.map((item, index) => (
+          <PromotionCard
+            key={index}
+            title={item.title}
+            date={item.published_date}
+            thumbnail={item.thumbnail}
+          >
+            {item}
+          </PromotionCard>
+        ))}
       </Carousel>
-      ;
+
+      {/* Display Movies */}
       <Container fluid className="d-flex p-3">
-        <Row className={"w-100 mx-auto"}>
-          <Col xs={12} sm={6} md={4} lg={3} xl={2}>
-            <MovieCard />
-          </Col>
-          <Col xs={12} sm={6} md={4} lg={3} xl={2}>
-            <MovieCard />
-          </Col>
-          <Col xs={12} sm={6} md={4} lg={3} xl={2}>
-            <MovieCard />
-          </Col>
-          <Col xs={12} sm={6} md={4} lg={3} xl={2}>
-            <MovieCard />
-          </Col>
-          <Col xs={12} sm={6} md={4} lg={3} xl={2}>
-            <MovieCard />
-          </Col>
-          <Col xs={12} sm={6} md={4} lg={3} xl={2}>
-            <MovieCard />
-          </Col>
-        </Row>
+        {MOVIES.map((item, index) => (
+          <Row className={"w-100 mx-auto"}>
+            <Col xs={12} sm={6} md={4} lg={3} xl={2}>
+              <MovieCard key={index} title={item.title} poster={item.poster}>
+                {item}
+              </MovieCard>
+            </Col>
+            {/* <Col xs={12} sm={6} md={4} lg={3} xl={2}>
+              <MovieCard />
+            </Col>
+            <Col xs={12} sm={6} md={4} lg={3} xl={2}>
+              <MovieCard />
+            </Col>
+            <Col xs={12} sm={6} md={4} lg={3} xl={2}>
+              <MovieCard />
+            </Col>
+            <Col xs={12} sm={6} md={4} lg={3} xl={2}>
+              <MovieCard />
+            </Col>
+            <Col xs={12} sm={6} md={4} lg={3} xl={2}>
+              <MovieCard />
+            </Col> */}
+          </Row>
+        ))}
       </Container>
     </div>
   );

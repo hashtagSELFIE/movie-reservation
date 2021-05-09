@@ -7,16 +7,7 @@ const Showtimes = (props) => {
       <p>{props.date}</p>
       <Row>
         <Col>
-          <Button variant="outline-secondary">10:30</Button>
-        </Col>
-        <Col>
-          <Button variant="outline-secondary">12:50</Button>
-        </Col>
-        <Col>
-          <Button variant="outline-secondary">14:45</Button>
-        </Col>
-        <Col>
-          <Button variant="outline-secondary">18:30</Button>
+          <Button variant="outline-secondary">{props.time}</Button>
         </Col>
       </Row>
     </Container>
