@@ -1,7 +1,7 @@
 import React from "react";
-import Confirmation from "../components/Confirmation";
+import SignIn from "../components/SignIn";
 
-const Payment = (props) => {
+const Login = (props) => {
   return (
     <div style={{
       alignItems: 'center',
@@ -9,10 +9,9 @@ const Payment = (props) => {
       justifyContent: "center",
       margin: "5em"
     }}>
-      <br/>
-      <Confirmation/>
+      <SignIn/>
     </div>
   );
 };
 
-export default Payment;
+export default Login;
