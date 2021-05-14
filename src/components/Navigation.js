@@ -1,5 +1,5 @@
 import React from "react";
-import { Route } from "react-router-dom";
+import { Switch, Route, Link } from "react-router-dom";
 
 import { Navbar, Nav } from "react-bootstrap";
 import Home from "../views/Home.js";
@@ -19,18 +19,20 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/movies">Movies</Nav.Link>
-            <Nav.Link href="/login">Login</Nav.Link>
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/movies">Movies</Nav.Link>
+            <Nav.Link as={Link} to="/login">Login</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
       <div className="App">
-        <Route exact path="/" component={Home} />
-        <Route path="/movies" component={Movies} />
-        <Route path="/login" component={Login} />
-        <Route path="/payment" component={Payment} />
-        <Route path="/register" component={Register} />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/movies" component={Movies} />
+          <Route path="/login" component={Login} />
+          <Route path="/payment" component={Payment} />
+          <Route path="/register" component={Register} />
+        </Switch>
       </div>
     </div>
   );
