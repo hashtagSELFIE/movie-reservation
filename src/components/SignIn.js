@@ -4,7 +4,7 @@ import {Button, Form} from "react-bootstrap";
 const SignIn = () => {
   return (
     <Form>
-      <h3>Log in</h3>
+      <h3 className="text-center">Log in</h3>
 
       <Form.Group controlId="formBasicEmail">
         <Form.Label>Email</Form.Label>
@@ -21,7 +21,7 @@ const SignIn = () => {
       <br/>
 
       <Button type="submit" className="btn btn-dark btn-lg btn-block">Sign in</Button>
-      <p className="forgot-password text-right">
+      <p className="forgot-password text-center">
         Don't have account? <a href="/register">Register here.</a>
       </p>
     </Form>

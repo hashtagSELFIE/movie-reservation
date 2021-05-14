@@ -4,7 +4,7 @@ import {Button, Form} from "react-bootstrap";
 const Regist = () => {
   return (
     <Form>
-      <h3>Register</h3>
+      <h3 className="text-center">Register</h3>
 
       <Form.Group controlId="formBasicFirstname">
         <Form.Label>First name</Form.Label>
@@ -25,11 +25,8 @@ const Regist = () => {
         <Form.Label>Password</Form.Label>
         <Form.Control type="password" placeholder="Enter password"/>
       </Form.Group>
-
-      <br/>
-
-      <Button type="submit" className="btn btn-dark btn-lg btn-block">Register</Button>
-      <p className="forgot-password text-right">
+      <Button type="submit" className="btn btn-dark btn-lg btn-block mt-4">Register</Button>
+      <p className="forgot-password text-center">
         Already registered ? <a href="/login">Login here.</a>
       </p>
     </Form>

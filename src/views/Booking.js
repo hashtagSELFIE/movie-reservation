@@ -1,27 +1,12 @@
-import { Button, Col, Container, Row, Responsive } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
 import MovieInfo from "../components/MovieInfo.js";
 import Showtimes from "../components/Showtimes.js";
 import Seats from "../components/Seats.js";
 import { SEATS, SHOWTIMES, MOVIES } from "../data/dummy-data.js";
 const Booking = () => {
-  const responsive = {
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
   return (
-    <container>
-      <div>
+    <Container>
         <Container fluid className="d-flex p-3">
           <Row className={"w-100 mx-auto"}>
             <Col md>
@@ -104,8 +89,7 @@ const Booking = () => {
             </Col>
           </Row>
         </Container>
-      </div>
-    </container>
+    </Container>
   );
 };
 export default Booking;

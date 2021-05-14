@@ -51,7 +51,7 @@ const Home = () => {
       <Container fluid className="d-flex p-3">
         <Row className={"w-100 justify-content-center"}>
           {MOVIES.map((item, index) => (
-            <Col xs={12} sm={6} md={4} lg={3} xl={2}>
+            <Col className={"mx-5"} xs={12} sm={6} md={4} lg={3} xl={2}>
               <MovieCard key={index} title={item.title} poster={item.poster}>
                 {item}
               </MovieCard>
