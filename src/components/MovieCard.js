@@ -3,11 +3,7 @@ import { Card } from "react-bootstrap";
 
 const MovieCard = (props) => {
   return (
-    // <a href="/movies">
-    <Card
-      className={"my-2 border-0"}
-      // style={{ cursor: "pointer", textDecoration: "none" }}
-    >
+    <Card style={{ width: "16rem" }} className={"my-2 border-0"}>
       <Card.Img variant="top" className={"vh-50"} src={props.poster} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
@@ -18,7 +14,6 @@ const MovieCard = (props) => {
         <Card.Text>{props.description}</Card.Text>
       </Card.Body>
     </Card>
-    // </a>
   );
 };
 

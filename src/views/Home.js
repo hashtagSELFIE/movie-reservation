@@ -55,21 +55,6 @@ const Home = () => {
                 {item}
               </MovieCard>
             </Col>
-            {/* <Col xs={12} sm={6} md={4} lg={3} xl={2}>
-              <MovieCard />
-            </Col>
-            <Col xs={12} sm={6} md={4} lg={3} xl={2}>
-              <MovieCard />
-            </Col>
-            <Col xs={12} sm={6} md={4} lg={3} xl={2}>
-              <MovieCard />
-            </Col>
-            <Col xs={12} sm={6} md={4} lg={3} xl={2}>
-              <MovieCard />
-            </Col>
-            <Col xs={12} sm={6} md={4} lg={3} xl={2}>
-              <MovieCard />
-            </Col> */}
           </Row>
         ))}
       </Container>
