@@ -4,7 +4,7 @@ import { Button, Col, Row, Container } from "react-bootstrap";
 const Showtimes = (props) => {
   return (
     <Container>
-      <p>{props.date}</p>
+      <p style={{ marginBottom: ".5rem" }}>{props.date}</p>
       <Row>
         <Col>
           <Button variant="outline-secondary">{props.time}</Button>

@@ -24,7 +24,7 @@ const Booking = () => {
       <div>
         <Container fluid className="d-flex p-3">
           <Row className={"w-100 mx-auto"}>
-            <Col sm>
+            <Col md>
               <h4>Movie Information</h4>
               {MOVIES.map((item, index) => (
                 <MovieInfo
@@ -56,26 +56,30 @@ const Booking = () => {
                 <Col>Theatre 5</Col>
               </Row>
 
-              <p>Collective</p>
-              <Row>
-                <div
-                  style={{ height: 20, width: 20, backgroundColor: "yellow" }}
-                ></div>
-                <p>ที่นั่งที่เลือก</p>
-                <div
-                  style={{ height: 20, width: 20, backgroundColor: "gray" }}
-                ></div>
-                <p>ที่นั่งที่ถูกจองแล้ว</p>
-                <div
-                  style={{
-                    height: 20,
-                    width: 20,
-                    border: "1px solid black",
-                  }}
-                ></div>
-                <p>ที่นั่งว่าง</p>
-                <div>
-                  {SEATS.map((item, index) => (
+              <Row class="w-33">
+                <Col>
+                  <Button variant="warning" size="sm" disabled>
+                    1A
+                  </Button>
+                  <p>ที่นั่งที่เลือก</p>
+                </Col>
+                <Col>
+                  <Button variant="outline-secondary" size="sm" disabled>
+                    1A
+                  </Button>
+                  <p>ที่นั่งที่ถูกจองแล้ว</p>
+                </Col>
+                <Col>
+                  <Button variant="outline-warning" size="sm" disabled>
+                    1A
+                  </Button>
+                  <p>ที่นั่งว่าง</p>
+                </Col>
+              </Row>
+
+              <Row class="justify-content-center">
+                {SEATS.map((item, index) => (
+                  <Col xs={3} style={{ marginBottom: "5%" }}>
                     <Seats
                       key={index}
                       seat_number={item.seat_number}
@@ -83,13 +87,20 @@ const Booking = () => {
                     >
                       {item}
                     </Seats>
-                  ))}
-                </div>
+                  </Col>
+                ))}
               </Row>
+              <hr style={{ borderTop: "2px solid #00000073" }}></hr>
+              <p>จอภาพยนตร์</p>
 
-              <Button variant="warning" href="/payment">
-                ชำระเงิน
-              </Button>
+              <Row
+                class="justify-content-center"
+                style={{ marginTop: 20, justifyContent: "center" }}
+              >
+                <Button variant="info" href="/payment">
+                  ชำระเงิน
+                </Button>
+              </Row>
             </Col>
           </Row>
         </Container>

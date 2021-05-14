@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 
 const MovieCard = (props) => {
   return (
-    <Card style={{ width: "16rem" }} className={"my-2 border-0"}>
+    <Card className={"my-2 border-0"}>
       <Card.Img variant="top" className={"vh-50"} src={props.poster} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>

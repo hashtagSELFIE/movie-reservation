@@ -1,23 +1,25 @@
 import React from "react";
-import { Button, Card, Container } from "react-bootstrap";
+import { Button, Card, Container, Image, Col } from "react-bootstrap";
 
 const MovieInfo = (props) => {
   return (
     <Container>
       <Card className={"my-2 border-0"}>
-        <Card.Img variant="top" className={"vh-50"} src={props.poster} />
+        <Col>
+          <Image src={props.poster} style={{ height: "50%", width: "50%" }} />
+        </Col>
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
           <Card.Subtitle>
             {props.length} mins R: {props.rating}
           </Card.Subtitle>
-          <Card.Subtitle>
+          <Card.Subtitle style={{ margin: ".5rem" }}>
             <Button size="sm" variant="outline-primary" href={props.trailer}>
               Watch Trailer
             </Button>
           </Card.Subtitle>
 
-          <Card.Text>{props.description}</Card.Text>
+          <Card.Text>{props.description} </Card.Text>
         </Card.Body>
       </Card>
     </Container>
