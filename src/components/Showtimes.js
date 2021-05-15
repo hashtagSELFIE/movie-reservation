@@ -1,15 +1,16 @@
 import React from "react";
-import { Button, Col, Row, Container } from "react-bootstrap";
+import { Button, Col, Row, Container, Card } from "react-bootstrap";
 
 const Showtimes = (props) => {
   return (
-    <Container>
-      <p style={{ marginBottom: ".5rem" }}>{props.date}</p>
-      <Row>
-        <Col>
+    <Container className="p-3">
+      <Card className="text-center">
+        <Card.Header>{props.date}</Card.Header>
+        <Card.Body>
           <Button variant="outline-secondary">{props.time}</Button>
-        </Col>
-      </Row>
+        </Card.Body>
+        <Card.Footer className="text-muted">Theatre 5</Card.Footer>
+      </Card>
     </Container>
   );
 };

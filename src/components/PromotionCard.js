@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 
 const PromotionCard = (props) => {
   return (
-    <Card className={"my-2 border-0"}>
+    <Card className={"my-2 border-0 text-center"}>
       <Card.Img variant="top" className={"vh-50"} src={props.thumbnail} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>

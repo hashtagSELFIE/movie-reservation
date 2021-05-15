@@ -1,9 +1,9 @@
 import React from "react";
 import { Button, Card, Col, Form } from "react-bootstrap";
-import { MOVIES, CINEMA } from "../data/dummy-data.js";
+import { CINEMA, MOVIES } from "../data/dummy-data.js";
 const SearchBar = () => {
   return (
-    <Card>
+    <Card className="text-center">
       <Card.Body>
         <Form>
           <Form.Row className="align-items-center">
