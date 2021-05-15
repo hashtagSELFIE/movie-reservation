@@ -2,6 +2,7 @@ import Seats from "../models/Seats.js";
 import Showtime from "../models/Showtime.js";
 import Movies from "../models/Movies.js";
 import News from "../models/News.js";
+import Cinema from "../models/Cinema.js";
 
 export const SEATS = [
   new Seats(0, "1A", "available", 160),
@@ -23,11 +24,10 @@ export const SEATS = [
 ];
 
 export const SHOWTIMES = [
-  // new Showtime(0, 113, "10/5/2021", "7:45 PM"),
-  new Showtime(0, 113, "10/5/2021", "11:34 PM"),
-  new Showtime(1, 147, "11/5/2021", "7:45 PM"),
-  new Showtime(2, 121, "12/5/2021", "8:10 PM"),
-  new Showtime(3, 120, "13/5/2021", "6:24 PM"),
+  new Showtime(0, 113, "10/5/2021", ["11:34 PM", "7:45 PM"]),
+  new Showtime(1, 147, "11/5/2021", ["11:34 PM", "7:45 PM"]),
+  new Showtime(2, 121, "12/5/2021", ["11:34 PM", "7:45 PM"]),
+  new Showtime(3, 120, "13/5/2021", ["11:34 PM", "7:45 PM"]),
 ];
 
 export const MOVIES = [
@@ -101,7 +101,7 @@ export const MOVIES = [
     "10/5/2021",
     "31/5/2021",
     "https://www.youtube.com/watch?v=s-7l9B8CwnM",
-    "https://lh3.googleusercontent.com/proxy/abdN9-O_KOpyXayXBjWG0jh54-6X1fvmu80UTvTKs3VY_Z8XkvoeG56aR_hSrqJZpBzJn8zSDni1AqgoZsy47UDyLUeDq_kUOeYfIA"
+    "https://m.media-amazon.com/images/M/MV5BMjM5YTRlZmUtZGVmYi00ZjE2LWIyNzAtOWVhMDk1MDdkYzhjXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_UY1200_CR64,0,630,1200_AL_.jpg"
   ),
 ];
 
@@ -138,4 +138,12 @@ export const NEWS = [
     "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
     "10/6/2020"
   ),
+];
+
+export const CINEMA = [
+  new Cinema(0, "Dottie", 1, "Moncton", 16),
+  new Cinema(1, "Rusk", 2, "Kanáli", 16),
+  new Cinema(2, "School", 3, "Otacílio Costa", 16),
+  new Cinema(3, "Novick", 4, "Martingança-Gare", 16),
+  new Cinema(4, "Hauk", 5, "Bukonyo", 16),
 ];
