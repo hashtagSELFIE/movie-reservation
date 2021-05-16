@@ -1,10 +1,13 @@
-import { Button, Col, Container, Row, Card } from "react-bootstrap";
+import {Button, Col, Container, Row, Card} from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
 import MovieInfo from "../components/MovieInfo.js";
 import Showtimes from "../components/Showtimes.js";
 import Seats from "../components/Seats.js";
-import { SEATS, SHOWTIMES, MOVIES } from "../data/dummy-data.js";
-const Booking = ({ match }) => {
+import {SEATS, SHOWTIMES, MOVIES} from "../data/dummy-data.js";
+import {Link} from "react-router-dom";
+import React from "react";
+
+const Booking = ({match}) => {
   const title = match.params.title;
   const SelectedMovie = MOVIES.find((movies) => movies.title === title);
   return (
@@ -14,7 +17,7 @@ const Booking = ({ match }) => {
           <Col className={"mx-3"}>
             <Card
               className="text-center"
-              style={{ backgroundColor: "transparent", border: "transparent" }}
+              style={{backgroundColor: "transparent", border: "transparent"}}
             >
               <h4>Movie Information</h4>
             </Card>
@@ -30,7 +33,7 @@ const Booking = ({ match }) => {
           <Col className={"mx-3"}>
             <Card
               className="text-center"
-              style={{ backgroundColor: "transparent", border: "transparent" }}
+              style={{backgroundColor: "transparent", border: "transparent"}}
             >
               <h4>Showtimes</h4>
             </Card>
@@ -46,7 +49,7 @@ const Booking = ({ match }) => {
           <Col className={"mx-3"}>
             <Card
               className="text-center"
-              style={{ border: "transparent", backgroundColor: "transparent" }}
+              style={{border: "transparent", backgroundColor: "transparent"}}
             >
               <h4>Seat Selection</h4>
             </Card>
@@ -54,7 +57,7 @@ const Booking = ({ match }) => {
             <Container className="p-3">
               <Row class="justify-content-center">
                 {SEATS.map((item, index) => (
-                  <Col xs={3} style={{ marginBottom: "5%" }}>
+                  <Col xs={3} style={{marginBottom: "5%"}}>
                     <Seats
                       key={index}
                       seat_number={item.seat_number}
@@ -65,13 +68,13 @@ const Booking = ({ match }) => {
                   </Col>
                 ))}
               </Row>
-              <Card className="text-center" style={{ border: "transparent" }}>
-                <hr style={{ borderTop: "2px solid #00000073" }}></hr>
+              <Card className="text-center" style={{border: "transparent"}}>
+                <hr style={{borderTop: "2px solid #00000073"}}></hr>
                 จอภาพยนตร์
               </Card>
               <Row
                 class="justify-content-center"
-                style={{ marginTop: 20, justifyContent: "center" }}
+                style={{marginTop: 20, justifyContent: "center"}}
               >
                 <Col>
                   <h4>ราคา</h4>
@@ -83,11 +86,19 @@ const Booking = ({ match }) => {
 
               <Row
                 class="justify-content-center"
-                style={{ marginTop: 20, justifyContent: "center" }}
+                style={{marginTop: 20, justifyContent: "center"}}
               >
-                <Button variant="info" href="/payment">
-                  ชำระเงิน
-                </Button>
+                <Link to={{
+                  pathname: `/payment`,
+                  state: {
+                    title: SelectedMovie.title,
+                    seat_number: "D4"
+                  }
+                }}>
+                  <Button variant="info">
+                    ชำระเงิน
+                  </Button>
+                </Link>
               </Row>
             </Container>
           </Col>

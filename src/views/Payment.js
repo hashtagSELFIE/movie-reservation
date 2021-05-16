@@ -3,11 +3,9 @@ import {Col, Container, Row} from "react-bootstrap";
 import QRGenerator from "../components/QRGenerator";
 import CreditCard from "../components/CreditCard";
 import Summary from "../components/Summary";
-import {MOVIES, CINEMA, SEATS, SHOWTIMES} from "../data/dummy-data";
 
-const Payment = ({match}) => {
-  const title = match.params.title;
-  const SelectedMovie = MOVIES.find((movies) => movies.title === title);
+const Payment = ({navigation}) => {
+  const movies = useSelector((state) => state.movie)
   return (
     <div style={{
       alignItems: 'center',
@@ -20,7 +18,7 @@ const Payment = ({match}) => {
         <Row className={"w-100 mx-auto"}>
           <Col className={"mx-2"}>
             <Summary
-            // title={SelectedMovie.title}
+            title={state.title}
             />
           </Col>
           <Col className={"mx-2"}>
