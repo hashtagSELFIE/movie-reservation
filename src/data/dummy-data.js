@@ -109,32 +109,32 @@ export const NEWS = [
   new News(
     0,
     "Promotions",
-    "Western Water Hemp",
-    "https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    "Discount up to 50% on Wednesday!",
+    "https://cdn.pixabay.com/photo/2017/11/24/10/43/ticket-2974645_1280.jpg",
     "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
     "10/6/2020"
   ),
   new News(
     1,
     "NEWS",
-    "KALI BROMATUM",
-    "https://images.unsplash.com/photo-1554068292-ce72e2521c9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    "Buy 1 Get 1 Free!",
+    "https://cdn.pixabay.com/photo/2016/06/03/12/42/popcorn-1433326_1280.jpg",
     "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
     "10/6/2020"
   ),
   new News(
     2,
     "Promotions",
-    "acebutolol hydrochloride",
-    "https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    "Cola New Flavor try now!",
+    "https://cdn.pixabay.com/photo/2019/06/17/20/13/soft-drink-4280835_1280.jpg",
     "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
     "10/6/2020"
   ),
   new News(
     3,
     "NEWS",
-    "Fluconazole",
-    "https://images.unsplash.com/photo-1554068292-ce72e2521c9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    "์Tomyum new flavor try now!",
+    "https://cdn.pixabay.com/photo/2020/02/27/18/54/popcorn-4885565_1280.jpg",
     "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
     "10/6/2020"
   ),
