@@ -30,12 +30,6 @@ const Navigation = () => {
             <Nav.Link as={Link} to="/">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/movies">
-              Movies
-            </Nav.Link>
-            <Nav.Link as={Link} to="/promotion">
-              Promotion
-            </Nav.Link>
             {!login && (
               <Nav.Link as={Link} to="/login">
                 Login
@@ -58,11 +52,11 @@ const Navigation = () => {
       <div className="App">
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/movies" component={Movies} />
+          <Route path="/movies/:title" component={Movies} />
           <Route path="/login" component={Login} />
           <Route path="/payment" component={Payment} />
           <Route path="/register" component={Register} />
-          <Route path="/promotion" component={Promotion} />
+          <Route path="/promotion/:id" component={Promotion} />
         </Switch>
       </div>
     </div>

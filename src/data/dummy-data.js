@@ -108,34 +108,34 @@ export const MOVIES = [
 export const NEWS = [
   new News(
     0,
-    "Promotions",
-    "Discount up to 50% on Wednesday!",
+    "PROMOTION",
+    "ลดค่าเข้าชมสูงสุด 50% ทุกวันพุธ",
     "https://cdn.pixabay.com/photo/2017/11/24/10/43/ticket-2974645_1280.jpg",
-    "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+    "รับส่วนลดบัตรเข้าชมภาพยนตร์สูงสุด 50% เมื่อเข้าชมภาพยนตร์ในวันพุธ ตั้งแต่เวลา 14:00 - 18:00 น. (ส่วนลดมีจำนวนจำกัด)",
     "10/6/2020"
   ),
   new News(
     1,
-    "NEWS",
-    "Buy 1 Get 1 Free!",
+    "PROMOTION",
+    "ซื้อ 1 แถม 1",
     "https://cdn.pixabay.com/photo/2016/06/03/12/42/popcorn-1433326_1280.jpg",
-    "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+    "โปรโมชั่น ป๊อปคอร์นซื้อ 1 แถม 1 เฉพาะวันจันทร์เท่านั้น",
     "10/6/2020"
   ),
   new News(
     2,
-    "Promotions",
-    "Cola New Flavor try now!",
+    "PROMOTION",
+    "รับส่วนลด 5% เมื่อซื้อโคล่ารสใหม่คู่ป๊อปคอร์นรสต้มยำ",
     "https://cdn.pixabay.com/photo/2019/06/17/20/13/soft-drink-4280835_1280.jpg",
-    "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+    "พิเศษ! รับส่วนลด 5% เพียงซือโคล่ารสใหม่คู่กับป๊อปคอร์นรสต้มยำ",
     "10/6/2020"
   ),
   new News(
     3,
     "NEWS",
-    "์Tomyum new flavor try now!",
+    "พิเศษ! สะสมแต้มได้แล้ววันนี้",
     "https://cdn.pixabay.com/photo/2020/02/27/18/54/popcorn-4885565_1280.jpg",
-    "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+    "เมื่อซื้อบัตรเข้าชมภาพยนตร์และอาหาร รับแต้มสะสมทุก ๆ 10 บาทต่อ 1 แต้ม สามารถนำแต้มสะสมมาเป็นส่วนลดในการซื้อบัตรและอาหารได้ในครั้งถัดไป โดย 1 แต้ม สามารถใช้แทนเงินสดได้ 1 บาท",
     "10/6/2020"
   ),
 ];

@@ -4,7 +4,9 @@ import MovieInfo from "../components/MovieInfo.js";
 import Showtimes from "../components/Showtimes.js";
 import Seats from "../components/Seats.js";
 import { SEATS, SHOWTIMES, MOVIES } from "../data/dummy-data.js";
-const Booking = () => {
+const Booking = ({ match }) => {
+  const title = match.params.title;
+  const SelectedMovie = MOVIES.find((movies) => movies.title === title);
   return (
     <Container>
       <Container fluid className="d-flex p-3">
@@ -16,19 +18,14 @@ const Booking = () => {
             >
               <h4>Movie Information</h4>
             </Card>
-            {MOVIES.map((item, index) => (
-              <MovieInfo
-                key={index}
-                title={item.title}
-                length={item.length}
-                rating={item.rating}
-                description={item.description}
-                poster={item.poster}
-                trailer={item.trailer}
-              >
-                {item}
-              </MovieInfo>
-            ))}
+            <MovieInfo
+              title={SelectedMovie.title}
+              length={SelectedMovie.length}
+              rating={SelectedMovie.rating}
+              description={SelectedMovie.description}
+              poster={SelectedMovie.poster}
+              trailer={SelectedMovie.trailer}
+            ></MovieInfo>
           </Col>
           <Col className={"mx-3"}>
             <Card
@@ -37,11 +34,13 @@ const Booking = () => {
             >
               <h4>Showtimes</h4>
             </Card>
-            {SHOWTIMES.map((item, index) => (
-              <Showtimes key={index} date={item.date} time={item.time}>
-                {item}
-              </Showtimes>
-            ))}
+            {SHOWTIMES.map((item, index) =>
+              item.time.map((element) => (
+                <Showtimes key={index} date={item.date} time={element}>
+                  {item}
+                </Showtimes>
+              ))
+            )}
           </Col>
 
           <Col className={"mx-3"}>
@@ -52,26 +51,6 @@ const Booking = () => {
               <h4>Seat Selection</h4>
             </Card>
 
-            {/* <Row class="w-33">
-              <Col>
-                <Button variant="warning" size="sm" disabled>
-                  1A
-                </Button>
-                <p>ที่นั่งที่เลือก</p>
-              </Col>
-              <Col>
-                <Button variant="outline-secondary" size="sm" disabled>
-                  1A
-                </Button>
-                <p>ที่นั่งที่ถูกจองแล้ว</p>
-              </Col>
-              <Col>
-                <Button variant="outline-warning" size="sm" disabled>
-                  1A
-                </Button>
-                <p>ที่นั่งว่าง</p>
-              </Col>
-            </Row> */}
             <Container className="p-3">
               <Row class="justify-content-center">
                 {SEATS.map((item, index) => (
@@ -90,6 +69,18 @@ const Booking = () => {
                 <hr style={{ borderTop: "2px solid #00000073" }}></hr>
                 จอภาพยนตร์
               </Card>
+              <Row
+                class="justify-content-center"
+                style={{ marginTop: 20, justifyContent: "center" }}
+              >
+                <Col>
+                  <h4>ราคา</h4>
+                </Col>
+                <Col className="text-right">
+                  <h4>160 บาท</h4>
+                </Col>
+              </Row>
+
               <Row
                 class="justify-content-center"
                 style={{ marginTop: 20, justifyContent: "center" }}

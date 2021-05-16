@@ -7,6 +7,7 @@ import MovieCard from "../components/MovieCard";
 import PromotionCard from "../components/PromotionCard.js";
 import SearchBar from "../components/SearchBar";
 import { MOVIES, NEWS } from "../data/dummy-data.js";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const responsive = {
@@ -35,14 +36,16 @@ const Home = () => {
         itemClass="mx-3"
       >
         {NEWS.map((item, index) => (
-          <PromotionCard
-            key={index}
-            title={item.title}
-            date={item.published_date}
-            thumbnail={item.thumbnail}
-          >
-            {item}
-          </PromotionCard>
+          <Link to={`/promotion/${item.id}`}>
+            <PromotionCard
+              key={index}
+              title={item.title}
+              date={item.published_date}
+              thumbnail={item.thumbnail}
+            >
+              {item}
+            </PromotionCard>
+          </Link>
         ))}
       </Carousel>
       {/* SearchBar */}
@@ -52,9 +55,11 @@ const Home = () => {
         <Row className={"w-100 justify-content-center"}>
           {MOVIES.map((item, index) => (
             <Col className={"mx-5"} xs={12} sm={6} md={4} lg={3} xl={2}>
-              <MovieCard key={index} title={item.title} poster={item.poster}>
-                {item}
-              </MovieCard>
+              <Link to={`/movies/${item.title}`}>
+                <MovieCard key={index} title={item.title} poster={item.poster}>
+                  {item}
+                </MovieCard>
+              </Link>
             </Col>
           ))}
         </Row>

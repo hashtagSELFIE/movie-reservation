@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Col, Row, Container, Card } from "react-bootstrap";
+import { Button, Card, Container } from "react-bootstrap";
 
 const Showtimes = (props) => {
   return (
